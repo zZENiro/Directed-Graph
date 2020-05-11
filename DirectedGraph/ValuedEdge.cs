@@ -33,7 +33,6 @@ namespace Directed_Graph
         public void AddTo(Node<T> node)
         {
             _to = node;
-            node.AddEdge(this);
         }
     }
 }

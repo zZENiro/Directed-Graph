@@ -29,5 +29,7 @@ namespace Directed_Graph
 
             _edges.Add(edge);
         }
+
+        public override string ToString() => Number.ToString();
     }
 }
