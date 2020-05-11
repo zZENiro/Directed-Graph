@@ -16,6 +16,9 @@ namespace Directed_Graph
 
         public void SetValuesToEdges(int[] values)
         {
+            if (values.Length != _edges.Count)
+                throw new Exception("Values not match to edges.");
+
             for (int i = 0; i < values.Length; ++i)
                 _edges[i].Value = values[i];
         }

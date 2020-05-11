@@ -13,7 +13,7 @@ namespace Directed_Graph
                 { 0, 0, -1,  1 }
             });
 
-
+            graph.SetValuesToEdges(new int[] { 23, 11, 41, 32 });
         }
     }
 }
